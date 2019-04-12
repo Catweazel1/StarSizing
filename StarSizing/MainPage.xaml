@@ -9,6 +9,13 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="Red" Grid.Row="0"/>
+        <Rectangle Fill="Blue" Grid.Row="1"/>
+        <Rectangle Fill="Green" Grid.Row="2"/>
     </Grid>
 </Page>
